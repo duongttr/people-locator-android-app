@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">WAUD</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_facebook_login">FacebookLoginActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fb_text_button">Countinue with Facebook</string>
+    <string name="app_name_description">Share Your Location</string>
+    <string name="nickname_hint">Nickname</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="address_hint">Address (optional)</string>
+    <string name="submit_btn_text">Start</string>
+    <string name="important_question_hint">When was our first kiss?</string>
+    <string name="close_app_notif">Press the back button once again to close the application.</string>
+    <string name="default_speed">0.0</string>
+    <string name="call_opt_bottom_sheet">Call</string>
+    <string name="home_opt_bottom_sheet">Home</string>
+    <string name="message_opt_bottom_sheet">Message</string>
+    <string name="coord_info">Coordinates</string>
+    <string name="info_text">More info</string>
+    <string name="name_address_info">Name address</string>
+    <string name="speed_info">Speed</string>
+    <string name="last_updated_info">Last updated</string>
+    <string name="follow_btn_text">Watch</string>
+    <string name="my_location_description">My location</string>
+    <string name="find_the_direction_description">Find the direction</string>
+    <string name="unknown_text">Unknown</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="fb_id_hint">Facebook ID</string>
+    <string name="default_speed_unit">km/h</string>
+
+
+
+
+
+
+    <string name="facebook_app_id">400326584370356</string>
+<!--    <string name="fb_login_protocol_scheme">/* Insert your Facebook Login Protocol Scheme */</string>-->
+</resources>

@@ -1,0 +1,48 @@
+com/example/waud/loginslider/LoginSlider.java
+ com.example.waud.loginslider.LoginSlider
+com/example/waud/MapsActivity.java
+ com.example.waud.MapsActivity
+ com.example.waud.MapsActivity$1
+ com.example.waud.MapsActivity$2
+ com.example.waud.MapsActivity$3
+ com.example.waud.MapsActivity$GetFullNameAdressTask
+com/example/waud/Services/Utils.java
+ com.example.waud.Services.Utils
+com/example/waud/Services/LocationTrackingService.java
+ com.example.waud.Services.LocationTrackingService
+ com.example.waud.Services.LocationTrackingService$1
+com/example/waud/loginslider/SecondFragment.java
+ com.example.waud.loginslider.SecondFragment
+ com.example.waud.loginslider.SecondFragment$1
+ com.example.waud.loginslider.SecondFragment$2
+ com.example.waud.loginslider.SecondFragment$3
+com/example/waud/Services/LocationUpdatesBroadcastReceiver.java
+ com.example.waud.Services.LocationUpdatesBroadcastReceiver
+com/google/android/gms/location/sample/locationupdatespendingintent/LocationUpdatesIntentService.java
+ com.google.android.gms.location.sample.locationupdatespendingintent.LocationUpdatesIntentService
+com/example/waud/User.java
+ com.example.waud.User
+com/example/waud/BuildConfig.java
+ com.example.waud.BuildConfig
+com/example/waud/Utils.java
+ com.example.waud.Utils
+com/example/waud/Services/Constants.java
+ com.example.waud.Services.Constants
+com/example/waud/loginslider/SecondFragmentDirections.java
+ com.example.waud.loginslider.SecondFragmentDirections
+com/example/waud/MyLocation.java
+ com.example.waud.MyLocation
+com/example/waud/loginslider/SecondFragmentArgs.java
+ com.example.waud.loginslider.SecondFragmentArgs
+ com.example.waud.loginslider.SecondFragmentArgs$1
+ com.example.waud.loginslider.SecondFragmentArgs$Builder
+com/example/waud/loginslider/FirstFragmentDirections.java
+ com.example.waud.loginslider.FirstFragmentDirections
+ com.example.waud.loginslider.FirstFragmentDirections$1
+ com.example.waud.loginslider.FirstFragmentDirections$ActionFirstFragmentToSecondFragment
+com/example/waud/loginslider/FirstFragment.java
+ com.example.waud.loginslider.FirstFragment
+ com.example.waud.loginslider.FirstFragment$1
+ com.example.waud.loginslider.FirstFragment$2
+ com.example.waud.loginslider.FirstFragment$3
+ com.example.waud.loginslider.FirstFragment$4

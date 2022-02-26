@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "776232492822",
+    "firebase_url": "https://waud-c3b03-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "waud-c3b03",
+    "storage_bucket": "waud-c3b03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776232492822:android:decfeec1d81a1218bf3a37",
+        "android_client_info": {
+          "package_name": "com.example.waud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776232492822-5gfniqpau7h1cb23fk2la3mfo3dmroin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmUtG4oOA-47Ror5LHn-Fv0zv1yBsbKbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776232492822-5gfniqpau7h1cb23fk2la3mfo3dmroin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

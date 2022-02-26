@@ -1,0 +1,372 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.waud"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:11:5-81
+17-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:12:5-67
+18-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:13:5-84
+19-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:13:22-82
+20    <uses-permission android:name="android.permission.CALL_PHONE" />
+20-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:14:5-68
+20-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:14:22-66
+21
+22    <!-- Include required permissions for Google Maps API to run. -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+28
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.android.installreferrer:installreferrer:1.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/817923a21eb5e5f2a3ba54283dd7f54b/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+29-->[com.android.installreferrer:installreferrer:1.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/817923a21eb5e5f2a3ba54283dd7f54b/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+30
+31    <application
+31-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:16:5-62:19
+32        android:allowBackup="true"
+32-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:17:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.3.1] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/3fc16d7a59527fa12f4db21d4ab635b2/core-1.3.1/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:18:9-43
+37        android:label="@string/app_name"
+37-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:19:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:20:9-54
+39        android:supportsRtl="true"
+39-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:21:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.WAUD" >
+41-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:22:9-42
+42        <activity
+42-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:24:9-32:20
+43            android:name="com.example.waud.loginslider.LoginSlider"
+43-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:25:13-52
+44            android:noHistory="true"
+44-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:26:13-37
+45            android:screenOrientation="portrait" >
+45-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:27:13-49
+46            <intent-filter>
+46-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:28:13-31:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:29:17-69
+47-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:29:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:30:17-77
+49-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:30:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <meta-data
+53-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:34:9-36:55
+54            android:name="com.facebook.sdk.ApplicationId"
+54-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:35:13-58
+55            android:value="@string/facebook_app_id" />
+55-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:36:13-52
+56        <meta-data
+56-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:37:9-39:55
+57            android:name="com.google.android.geo.API_KEY"
+57-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:38:13-58
+58            android:value="@string/google_maps_key" />
+58-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:39:13-52
+59        <meta-data
+59-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:40:9-42:57
+60            android:name="preloaded_fonts"
+60-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:41:13-43
+61            android:resource="@array/preloaded_fonts" />
+61-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:42:13-54
+62
+63        <activity
+63-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:44:9-49:20
+64            android:name="com.example.waud.MapsActivity"
+64-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:45:13-41
+65            android:label="@string/title_activity_maps"
+65-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:46:13-56
+66            android:screenOrientation="portrait" >
+66-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:47:13-49
+67        </activity>
+68
+69        <service
+69-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:51:9-53:40
+70            android:name="com.google.android.gms.location.sample.locationupdatespendingintent.LocationUpdatesIntentService"
+70-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:52:13-124
+71            android:exported="false" />
+71-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:53:13-37
+72
+73        <receiver
+73-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:55:9-60:20
+74            android:name="com.example.waud.Services.LocationUpdatesBroadcastReceiver"
+74-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:55:19-76
+75            android:exported="true" >
+75-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:56:13-36
+76            <intent-filter>
+76-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:57:13-59:29
+77                <action android:name="com.google.android.gms.location.sample.locationupdatespendingintent.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES" />
+77-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:58:17-166
+77-->/Users/jaydentran1909/AndroidStudioProjects/WAUD copy/app/src/main/AndroidManifest.xml:58:25-163
+78            </intent-filter>
+79        </receiver>
+80
+81        <activity
+81-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+82            android:name="com.facebook.FacebookActivity"
+82-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:31:13-57
+83            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+83-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:32:13-96
+84            android:theme="@style/com_facebook_activity_theme" />
+84-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+85        <activity android:name="com.facebook.CustomTabMainActivity" />
+85-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+85-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+86        <activity
+86-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+87            android:name="com.facebook.CustomTabActivity"
+87-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:36:13-58
+88            android:exported="true" >
+88-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:37:13-36
+89            <intent-filter>
+89-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+90                <action android:name="android.intent.action.VIEW" />
+90-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:17-69
+90-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:17-76
+92-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:27-73
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:17-78
+93-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:27-75
+94
+95                <data
+95-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:45:17-47:50
+96                    android:host="cct.com.example.waud"
+96-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:46:21-56
+97                    android:scheme="fbconnect" />
+97-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:47:21-47
+98            </intent-filter>
+99        </activity> <!-- Needs to be explicitly declared on P+ -->
+100        <uses-library
+100-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+101            android:name="org.apache.http.legacy"
+101-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+102            android:required="false" />
+102-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/b80aa2217377e3858c9ec8d25b4afbe6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+103
+104        <service
+104-->[com.google.firebase:firebase-database:19.6.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/a349782309e4bf1d07eaa98cc1adecab/jetified-firebase-database-19.6.0/AndroidManifest.xml:29:9-35:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[com.google.firebase:firebase-database:19.6.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/a349782309e4bf1d07eaa98cc1adecab/jetified-firebase-database-19.6.0/AndroidManifest.xml:30:13-84
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-database:19.6.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/a349782309e4bf1d07eaa98cc1adecab/jetified-firebase-database-19.6.0/AndroidManifest.xml:31:13-37
+108            <meta-data
+108-->[com.google.firebase:firebase-database:19.6.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/a349782309e4bf1d07eaa98cc1adecab/jetified-firebase-database-19.6.0/AndroidManifest.xml:32:13-34:85
+109                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+109-->[com.google.firebase:firebase-database:19.6.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/a349782309e4bf1d07eaa98cc1adecab/jetified-firebase-database-19.6.0/AndroidManifest.xml:33:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-database:19.6.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/a349782309e4bf1d07eaa98cc1adecab/jetified-firebase-database-19.6.0/AndroidManifest.xml:34:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:77:13-79:85
+112                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+112-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:78:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:79:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-storage:19.2.1] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4a7bd2f9c7630b9b2dbbbd6e2692a23c/jetified-firebase-storage-19.2.1/AndroidManifest.xml:33:13-35:85
+115                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+115-->[com.google.firebase:firebase-storage:19.2.1] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4a7bd2f9c7630b9b2dbbbd6e2692a23c/jetified-firebase-storage-19.2.1/AndroidManifest.xml:34:17-107
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-storage:19.2.1] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4a7bd2f9c7630b9b2dbbbd6e2692a23c/jetified-firebase-storage-19.2.1/AndroidManifest.xml:35:17-82
+117            <!--
+118                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+119                clients to use it as well, by defining this registrar in their own core/common library.
+120            -->
+121            <meta-data
+121-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+122                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+122-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+124        </service>
+125
+126        <activity
+126-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:27:9-44:20
+127            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+127-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:28:13-80
+128            android:excludeFromRecents="true"
+128-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:29:13-46
+129            android:exported="true"
+129-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:30:13-36
+130            android:launchMode="singleTask"
+130-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:31:13-44
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+131-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:32:13-72
+132            <intent-filter>
+132-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:33:13-43:29
+133                <action android:name="android.intent.action.VIEW" />
+133-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:17-69
+133-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:25-66
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:17-76
+135-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:27-73
+136                <category android:name="android.intent.category.BROWSABLE" />
+136-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:17-78
+136-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:27-75
+137
+138                <data
+138-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:45:17-47:50
+139                    android:host="firebase.auth"
+139-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:46:21-56
+140                    android:path="/"
+141                    android:scheme="genericidp" />
+141-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:47:21-47
+142            </intent-filter>
+143        </activity>
+144        <activity
+144-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:45:9-62:20
+145            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+145-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:46:13-79
+146            android:excludeFromRecents="true"
+146-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:47:13-46
+147            android:exported="true"
+147-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:48:13-36
+148            android:launchMode="singleTask"
+148-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:49:13-44
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+149-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:50:13-72
+150            <intent-filter>
+150-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:51:13-61:29
+151                <action android:name="android.intent.action.VIEW" />
+151-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:17-69
+151-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:25-66
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:17-76
+153-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:27-73
+154                <category android:name="android.intent.category.BROWSABLE" />
+154-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:17-78
+154-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:27-75
+155
+156                <data
+156-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:45:17-47:50
+157                    android:host="firebase.auth"
+157-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:46:21-56
+158                    android:path="/"
+159                    android:scheme="recaptcha" />
+159-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:47:21-47
+160            </intent-filter>
+161        </activity>
+162
+163        <service
+163-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:64:9-73:19
+164            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+164-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:65:13-101
+165            android:enabled="true"
+165-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:66:13-35
+166            android:exported="false" >
+166-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:67:13-37
+167            <intent-filter>
+167-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:68:13-72:29
+168                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+168-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:17-89
+168-->[com.google.firebase:firebase-auth:20.0.2] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/abd220cbcc4b0879cf70e05876199cde/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:25-86
+169
+170                <category android:name="android.intent.category.DEFAULT" />
+170-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:17-76
+170-->[com.facebook.android:facebook-common:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/86d5e5c9b26d8f4c92370ae91d7d2f81/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:27-73
+171            </intent-filter>
+172        </service>
+173
+174        <activity
+174-->[com.google.android.gms:play-services-base:17.3.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/93382c70581b9dfec46d1bc0b2930bbd/jetified-play-services-base-17.3.0/AndroidManifest.xml:23:9-26:75
+175            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+175-->[com.google.android.gms:play-services-base:17.3.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/93382c70581b9dfec46d1bc0b2930bbd/jetified-play-services-base-17.3.0/AndroidManifest.xml:24:13-79
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-base:17.3.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/93382c70581b9dfec46d1bc0b2930bbd/jetified-play-services-base-17.3.0/AndroidManifest.xml:25:13-37
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+177-->[com.google.android.gms:play-services-base:17.3.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/93382c70581b9dfec46d1bc0b2930bbd/jetified-play-services-base-17.3.0/AndroidManifest.xml:26:13-72
+178
+179        <provider
+179-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+180            android:name="com.google.firebase.provider.FirebaseInitProvider"
+180-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+181            android:authorities="com.example.waud.firebaseinitprovider"
+181-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+182            android:directBootAware="true"
+182-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+183            android:exported="false"
+183-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+184            android:initOrder="100" />
+184-->[com.google.firebase:firebase-common:19.5.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/4f19bdc427af169d000315d5a5edfa5e/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+185
+186        <meta-data
+186-->[com.google.android.gms:play-services-basement:17.3.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/14a15e66e5541a1c9a49368437ad6e73/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
+187            android:name="com.google.android.gms.version"
+187-->[com.google.android.gms:play-services-basement:17.3.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/14a15e66e5541a1c9a49368437ad6e73/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
+188            android:value="@integer/google_play_services_version" />
+188-->[com.google.android.gms:play-services-basement:17.3.0] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/14a15e66e5541a1c9a49368437ad6e73/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
+189        <!--
+190         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+191         with the application context. This config is merged in with the host app's manifest,
+192         but there can only be one provider with the same authority activated at any given
+193         point; so if the end user has two or more different apps that use Facebook SDK, only the
+194         first one will be able to use the provider. To work around this problem, we use the
+195         following placeholder in the authority to identify each host application as if it was
+196         a completely different provider.
+197        -->
+198        <provider
+198-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+199            android:name="com.facebook.internal.FacebookInitProvider"
+199-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+200            android:authorities="com.example.waud.FacebookInitProvider"
+200-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+201            android:exported="false" />
+201-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+202
+203        <receiver
+203-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+204            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+204-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+205            android:exported="false" >
+205-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+206            <intent-filter>
+206-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+207                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+207-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+207-->[com.facebook.android:facebook-core:5.15.3] /Users/jaydentran1909/.gradle/caches/transforms-2/files-2.1/c4c1e4429b2d08009f968a983935c49e/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+208            </intent-filter>
+209        </receiver>
+210    </application>
+211
+212</manifest>
